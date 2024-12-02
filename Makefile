@@ -1,2 +1,2 @@
 watch:
-	RUST_BACKTRACE=full typst watch --font-path fonts ./src/main.typ main.pdf
+	RUST_BACKTRACE=full typst watch main.typ main.pdf

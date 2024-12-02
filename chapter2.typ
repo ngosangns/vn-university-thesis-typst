@@ -117,7 +117,7 @@ Danh sách các chức năng con của chức năng quản lý sản phẩm:
 //   admin -- update_cate
 //   admin -- delete_cate
 // @enduml
-#img("5image.PNG", cap: "Biểu đồ usecase cho chức năng quản lý sản phẩm")
+#img("5image.png", cap: "Biểu đồ usecase cho chức năng quản lý sản phẩm")
 
 #h3("Chức năng quản lý đơn hàng")
 
