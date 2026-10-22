@@ -40,13 +40,14 @@ Nếu sai, tôi xin chịu mọi hình thức kỷ luật theo quy định của
 ]
 
 #h1("Mục lục", numbering: false)
-#par(
-  first-line-indent: 0pt,
-  outline(
+#[
+  #set par(first-line-indent: 0pt)
+  #v(24pt)
+  #outline(
     title: none,
     depth: 3,
-  ),
-)
+  )
+]
 
 #h1("Danh mục các ký hiệu, chữ viết tắt", numbering: false)
 
@@ -85,23 +86,25 @@ Nếu sai, tôi xin chịu mọi hình thức kỷ luật theo quy định của
 )
 
 #h1("Danh mục bảng", numbering: false)
-#par(
-  first-line-indent: 0pt,
-  outline(
+#[
+  #set par(first-line-indent: 0pt)
+  #v(24pt)
+  #outline(
     title: none,
     target: figure.where(kind: table),
-  ),
-)
+  )
+]
 
 #h1("Danh mục hình vẽ, đồ thị", numbering: false)
 
-#par(
-  first-line-indent: 0pt,
-  outline(
+#[
+  #set par(first-line-indent: 0pt)
+  #v(24pt)
+  #outline(
     title: none,
     target: figure.where(kind: image),
-  ),
-)
+  )
+]
 
 #h1("Mở đầu", numbering: false)
 

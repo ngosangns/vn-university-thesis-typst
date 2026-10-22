@@ -71,7 +71,7 @@
 }
 
 #let tabl(..fields, cap: false) = {
-  if type(cap) == "string" {
+  if type(cap) == str {
     block(inset: (top: -(2 * textSize)))
     figure(placement: none, caption: cap, supplement: "Bảng", table())
     block(inset: (top: -(1 * textSize)))

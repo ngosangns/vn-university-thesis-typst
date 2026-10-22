@@ -10,6 +10,24 @@ Online demo: [https://typst.app/project/rUSXxv8lkSNich16PLrcGp](https://typst.ap
 - MacOS: `brew install typst`
 - Windows: `winget install --id Typst.Typst`
 
+Tested with **Typst 0.15.x** (`typst --version`). Older releases (<= 0.12) are not supported by the current sources.
+
+The Times New Roman fonts (`times*.ttf`) are bundled in the repository, so always pass `--font-path .`.
+
+## Build
+
+```sh
+typst compile --font-path . main.typ main.pdf
+```
+
+Or
+
+```sh
+make build
+```
+
+`cover.typ`, `pre.typ`, `chapter*.typ` are include-only; compile `main.typ`.
+
 ## Editing
 
 Use VSCode with the **Tinymist Typst** and **LaTeX Workshop** extensions for an enhanced editing experience.
@@ -19,7 +37,7 @@ Use VSCode with the **Tinymist Typst** and **LaTeX Workshop** extensions for an 
 To continuously export the report to a `.pdf` file while monitoring for changes, use the following command:
 
 ```sh
-typst watch main.typ main.pdf
+typst watch --font-path . main.typ main.pdf
 ```
 
 Or
